@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  display: block;
+  font-size: 14px;
+  color: #4caf50;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__text {
+  max-width: 50%;
+}
+
+.hero__text .alert {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero__text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero__text p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #388e3c;
+}
+
+.hero__image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.results {
+  padding: 50px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: -30px auto 50px;
+  border-radius: 10px;
+}
+
+.results__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.results__item {
+  text-align: center;
+  flex: 1;
+}
+
+.results__item h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.results__item .number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.results__item .recovered {
+  color: #4caf50;
+}
+
+.results__item .deaths {
+  color: #d32f2f;
+}
+
+.results__item .extra {
+  font-size: 14px;
+  color: #777;
+}
+
+.h {
+  margin-left: 700px;
+  margin-top: -380px;
+}
+.l {
+  margin-left: 700px;
+}
+.ser {
+  margin-left: 700px;
+  list-style: none;
+}
+.bt {
+  margin-left: 700px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.t {
+  display: flex;
+  justify-content: center;
+}
+.prevention {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.prevention h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.prevention p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.prevention-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 50px;
+}
+
+.card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.symptoms {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.symptoms h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.symptoms p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.symptoms img {
+  width: 300px;
+  margin: 0 auto;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r {
+  margin-left: 250px;
+}
+.need-help {
+  text-align: center;
+  margin-bottom: 40px;
+  background: white;
+  border: 1px solid white
+  ;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1400px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.need-help h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.need-help p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.help-form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-right: 70px;
+  background-color: #f4f4f4;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+._ {
+  color: #4caf50;
+  display: flex;
+  justify-content: center;
+}
+.i {
+  display: flex;
+}
+.e {
+  margin-top: -10px;
+  width: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fb;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.contact-section{
+  
+
+ 
+}
+
+
+
+.header h1 {
+  color: whi;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #666;
+}
+
+.image-section img {
+  width: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.contact-section p {
+  font-size: 14px;
+  color: ;
+  margin: 10px 0;
+}
+
+.help-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.help-form input,
+.help-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.help-form button {
+  padding: 10px;
+  background-color: white;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .header__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .results__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .results__item {
+    text-align: center;
+  }
+  .prevention-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .symptoms img {
+    width: 100%;
+  }
+  .help-form {
+    max-width: 100%;
+  }
+  .help-form button {
+    width: 100%;
+  }
+  .image-section img {
+    width: 100%;
+  }
+  .r {
+    margin-left: 0px;
+  }
+  .h {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .l {
+    margin-left: 0px;
+  }
+  .ser {
+    margin-left: 0px;
+  }
+  .bt {
+    margin-left: 0px;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .need-help {
+    text-align: center;
+    margin-bottom: 40px;
+    background: white;
+    border: 1px solid white
+    ;
+    border-radius: 25px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  .need-help h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .need-help p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .help-form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-right: 70px;
+    background-color: #f4f4f4;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border:
+}
