@@ -373,6 +373,11 @@ body {
   }
   .header{
     margin-left: 40px;
+    background-color: white;
+    max-width: 1000px;
+  }
+  .prevention-cards{
+    margin-left: 70px;
   }
   .results{
     margin-left: 50px;
