@@ -390,6 +390,7 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+
   .results__container {
     flex-direction: column;
     gap: 20px;
@@ -471,3 +472,6 @@ body {
     width: 100%;
     padding: 10px
   }}
+  .container{
+    width:720px
+  }
